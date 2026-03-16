@@ -11,6 +11,7 @@ public class Main {
         strings.add("You can count on it!");
         strings.add("Definitely not!");
         strings.add("Unclear. Try again later.");
+        strings.add("It is a magic 8-ball");
 
         Random random = new Random();
         String randomString = strings.get(random.nextInt(strings.size()));
